@@ -12,6 +12,7 @@ script:
     # old command:: - docker run iqbaalsingh/docker-react npm run test -- -- coverage
     - docker run -e CI=true iqbaalsingh/docker-react npm run test
 
+# deploy has some errors - need to revisit!
 deploy:
     provider: "azure_web_app"
     username: "azure_wa_user"
